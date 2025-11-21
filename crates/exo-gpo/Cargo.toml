@@ -1,0 +1,9 @@
+[package]
+name = "exo-gpo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+quick-xml = "0.31"
+serde = { version = "1.0", features = ["derive"] }
+thiserror = "1.0"
